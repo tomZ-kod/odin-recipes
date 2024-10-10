@@ -1,0 +1,29 @@
+h1 {
+    color:rgb(201, 28, 51);
+    font-weight: 700;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 60px;
+    
+}
+
+ul {
+    color: black;
+    list-style-type: none;
+    
+}
+.recipe1, .recipe3 {
+    color:green;
+}
+
+.recipe2 {
+    color:white;
+    background-color: green;
+}
+
+.recipe1, .recipe2, .recipe3 {
+    font-size: 40px;
+}
+
+* {
+    text-align: center;
+}
