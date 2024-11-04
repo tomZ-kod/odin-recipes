@@ -1,27 +1,36 @@
 h1 {
-    color:rgb(201, 28, 51);
+    color:rgb(43, 74, 121);
     font-weight: 700;
     font-family:'Times New Roman', Times, serif;
+    font-style: italic;
     font-size: 60px;
     
 }
+
 
 ul {
     color: black;
     list-style-type: none;
     
 }
-.recipe1, .recipe3 {
-    color:green;
+
+li {
+    border: 7px solid lightblue;
+    margin: 5px;
 }
 
-.recipe2 {
-    color:white;
-    background-color: green;
+
+a:hover {
+    background-color: lightblue;
+    color: white;
 }
+
 
 .recipe1, .recipe2, .recipe3 {
-    font-size: 40px;
+    font-size: 25px;
+    text-decoration: none;
+    color: lightsalmon;
+    font-style: italic;
 }
 
 * {
